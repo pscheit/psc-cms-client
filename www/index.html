@@ -47,6 +47,12 @@
         border-left: 1px solid rgba(255,255,255,.75);
         border-right: 1px solid rgba(0,0,0,.1);
       }
+			.navbar .nav li ul li a {
+        font-weight: bold;
+        text-align: left;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
       .navbar .nav li:first-child a {
         border-left: 0;
         border-radius: 3px 0 0 3px;
@@ -246,7 +252,7 @@
               <li><a href="#" data-toggle="tab">Spiel 1</a></li>
               <li><a href="#" data-toggle="tab">Spiel 13</a></li>
             </ul>
-            <div  class="span9" style="overflow-y:scroll; max-height: 397px">
+            <div  class="span12" style="overflow-y:scroll; max-height: 380px">
               <div class="spieloptions">
                 <div class="row-fluid">
                   <div class="span4">
@@ -280,21 +286,18 @@
                 <textarea rows="40">Statt diesem area muss ace-editor stehen</textarea>
               </div>
             </div>
-            <div class="span3 pull-right">
-              <div class="buttonarea">
-                <button class="btn btn-block" type="button"><i class="icon-remove"></i>  Schließen</button>
-                <button class="btn btn-block" type="button"><i class="icon-repeat"></i>  Neu laden</button>
-                <button class="btn btn-block" type="button"><i class="icon-ok"></i>  Speichern & Schließen</button></br>
-                <button class="btn btn-block" type="button"><i class="icon-star"></i>  Simulator starten</button>
-                <button class="btn btn-block" type="button"><i class="icon-pencil"></i>  Editor starten</button>
-                <button class="btn btn-block" type="button"><i class="icon-remove-circle"></i>  Spiel löschen  <i class="icon-exclamation-sign"></i></button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
+			</br>
       <div class="footer">
+				<button class="btn" type="button"><i class="icon-remove"></i>  Schließen</button>
+				<button class="btn" type="button"><i class="icon-repeat"></i>  Neu laden</button>
+        <button class="btn" type="button"><i class="icon-ok"></i>  Speichern & Schließen</button>
+        <button class="btn" type="button"><i class="icon-star"></i>  Simulator starten</button>
+        <button class="btn" type="button"><i class="icon-pencil"></i>  Editor starten</button>
+        <button class="btn" type="button"><i class="icon-remove-circle"></i>  Spiel löschen  <i class="icon-exclamation-sign"></i></button>
         </br><a href="mailto: p.scheit@ps-webforge.com">p.scheit@ps-webforge.com</a>
       </div>
 
@@ -303,6 +306,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery-1.9.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
