@@ -16,35 +16,11 @@
 			body {
 				height: 100%;
 			}
-			* {
-				margin: 0;
-			}
-			.wrap {
-				min-height: 100%;
-				height: auto !important;
-				height: 100%;
-				margin: 0 auto -60px;
-			}
-			.push,
-			.footer {
-				height: 60px;
-			}
-			
 			.mainarea {
 				padding-top: 50px;
+				padding-bottom: 100px;
+				margin:0px;
 			}
-
-      .footer {
-        background-color: #ffffff;
-      }
-			 @media (max-width: 767px) {
-				.footer {
-					margin-left: -20px;
-					margin-right: -20px;
-					padding-left: 20px;
-					padding-right: 20px;
-				}
-      }
       .area1{
         position: relative;
         margin: 0px 0;
@@ -58,7 +34,7 @@
       .spieloptions{
         position: relative;
         margin: 0px 0;
-        padding: 39px 19px 14px;
+        padding: 39px 30px 14px;
         background-color: white;
         border: 1px solid #DDD;
         -webkit-border-radius: 4px;
@@ -83,7 +59,7 @@
       .spieleditor{
         position: relative;
         margin: 0px 0;
-        padding: 39px 19px 14px;
+        padding: 39px 30px 14px;
         background-color: white;
         border: 1px solid #DDD;
         -webkit-border-radius: 4px;
@@ -110,7 +86,6 @@
   </head>
 
   <body>
-		<div class="wrap">
 		  <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
           <div class="container">
@@ -206,7 +181,7 @@
 								<li><a href="#" data-toggle="tab">Spiel 1</a></li>
 								<li><a href="#" data-toggle="tab">Spiel 13</a></li>
 							</ul>
-							<div class="span12">
+							<div class="span12" style="margin: 0">
 								<div class="spieloptions">
 									<div class="row-fluid">
 										<div class="span4">
@@ -244,17 +219,17 @@
 					</div>	
 				</div>
 			</div>
-			<div class="push"></div>
-		</div>
 
-		<div class="container">
-      <div class="footer">
+		<div class="navbar-fixed-bottom">
+			<div class="container" style ="background-color: black; width:100%; height: 40px; padding-top: 8px;">
+				<div class="text-center">
 				<button class="btn" type="button"><i class="icon-remove"></i>  Schließen</button>
 				<button class="btn" type="button"><i class="icon-repeat"></i>  Neu laden</button>
-        <button class="btn" type="button"><i class="icon-ok"></i>  Speichern & Schließen</button>
-        <button class="btn" type="button"><i class="icon-star"></i>  Simulator starten</button>
-        <button class="btn" type="button"><i class="icon-pencil"></i>  Editor starten</button>
-        <button class="btn" type="button"><i class="icon-remove-circle"></i>  Spiel löschen  <i class="icon-exclamation-sign"></i></button>
+				<button class="btn" type="button"><i class="icon-ok"></i>  Speichern & Schließen</button>
+				<button class="btn" type="button"><i class="icon-star"></i>  Simulator starten</button>
+				<button class="btn" type="button"><i class="icon-pencil"></i>  Editor starten</button>
+				<button class="btn" type="button"><i class="icon-remove-circle"></i>  Spiel löschen  <i class="icon-exclamation-sign"></i></button>
+				</div>
       </div>
 		</div>
 
