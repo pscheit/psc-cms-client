@@ -1,0 +1,19 @@
+{
+    "name": "pscheit/psc-cms-client",
+    "description": "HTML / JS Client for psc-cms backend",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yulia Bobkova",
+            "email": "y.bobkova@ps-webforge.com"
+        },
+        {
+            "name": "Philipp Scheit",
+            "email": "p.scheit@ps-webforge.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
